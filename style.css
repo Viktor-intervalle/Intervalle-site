@@ -1,62 +1,62 @@
-
 body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f7f7f7;
-  color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
-header, footer {
-  text-align: center;
-  padding: 2rem 1rem;
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
 }
-header h1 {
-  font-size: 2.5rem;
-  margin: 0;
+h1 {
+    font-size: 2.5em;
+    font-style: italic;
+    text-align: center;
 }
-.tagline {
-  font-size: 1.3rem;
-  margin-top: 0.5rem;
-  font-style: italic;
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 40px;
 }
-.signature {
-  font-size: 1rem;
-  margin-top: 0.2rem;
-  color: #555;
+.justified {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-bottom: 25px;
 }
-.description {
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  padding: 1rem 2rem;
-  line-height: 1.6;
-  text-align: center;
+.centered {
+    text-align: center;
 }
-.video-container {
-  max-width: 900px;
-  margin: 2rem auto;
+.video {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
 }
-.video-container video {
-  width: 100%;
-  border-radius: 12px;
+.media-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
 }
-.img-luxe {
-  width: 100%;
-  max-width: 900px;
-  margin: 2rem auto;
-  display: block;
-  border-radius: 12px;
+.luxury-img {
+    width: 240px;
+    height: auto;
+    border-radius: 8px;
 }
-.photo-profil {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 2rem auto;
-  display: block;
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 footer {
-  background-color: #eee;
-  font-size: 0.9rem;
-  padding: 1rem;
-  color: #333;
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 60px;
 }
