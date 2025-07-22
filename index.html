@@ -1,38 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
     <title>Voir le luxe autrement</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4efeb;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            font-style: italic;
+            font-weight: normal;
+            font-size: 2em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px 0 20px;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .video-section {
+            margin-top: 30px;
+        }
+        .video-section h2 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        video {
+            width: 360px;
+            height: 640px;
+        }
+        .footer {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 30px;
+        }
+        .bottom-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            gap: 20px;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+        .luxury-img {
+            width: 240px;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1><em>"Voir le luxe autrement"</em></h1>
-        <h2>Viktor Schreve</h2>
-        <p class="justified">
-            Vous voulez capter plus de mandats exclusifs ? Donnez à chaque propriétaire une raison de vous choisir.
-        </p>
-        <p class="justified">
-            J’aide les agences de prestige à se différencier dès le premier contact grâce à des vidéos immersives haut de gamme, pensées pour sublimer chaque bien. Ces contenus deviennent votre atout en prospection : ils valorisent votre image, captent l’attention, et renforcent la confiance des vendeurs. Vous gagnez en impact, en visibilité, et en crédibilité — sans perdre de temps à gérer la production. Je m’occupe de tout : du tournage à la diffusion.
-        </p>
-        <p class="justified">
-            Vous n’avez plus à convaincre. Vos contenus le font pour vous.
-        </p>
-        <p class="justified centered">
-            Vidéo réalisée pour présenter un chalet d'exception à Villars-sur-Ollon :
-        </p>
-        <video class="video" controls>
-            <source src="demo-video.mp4" type="video/mp4">
-            Votre navigateur ne supporte pas la lecture vidéo.
-        </video>
-        <div class="media-row">
-            <img src="luxury-house.jpg" alt="Bien immobilier de luxe" class="luxury-img"/>
-            <img src="placeholder-profile.jpg" alt="Votre photo" class="profile-img"/>
+        <h1>"Voir le luxe autrement"</h1>
+        <p>Vous voulez capter plus de mandats exclusifs ? Donnez à chaque propriétaire une raison de vous choisir.</p>
+        <p>J’aide les agences de prestige à se différencier dès le premier contact grâce à des vidéos immersives haut de gamme, pensées pour sublimer chaque bien. Ces contenus deviennent votre atout en prospection : ils valorisent votre image, captent l’attention, et renforcent la confiance des vendeurs. Vous gagnez en impact, en visibilité, et en crédibilité — sans perdre de temps à gérer la production. Je m’occupe de tout : du tournage à la diffusion.</p>
+        <p>Vous n’avez plus à convaincre. Vos contenus le font pour vous.</p>
+
+        <div class="video-section">
+            <h2>Vidéo réalisée pour présenter un chalet d'exception à Villars-sur-Ollon :</h2>
+            <video controls autoplay muted loop>
+                <source src="video.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos.
+            </video>
+        </div>
+
+        <div class="bottom-images">
+            <img src="profile-placeholder.png" alt="Votre photo" class="profile-pic">
+            <img src="luxury-house.jpg" alt="Bien immobilier de luxe" class="luxury-img">
+        </div>
+
+        <div class="footer">
+            © 2025 Intervalle Immobilier. Tous droits réservés.
         </div>
     </div>
-    <footer>
-        <p>© 2025 Intervalle Immobilier. Tous droits réservés.</p>
-    </footer>
 </body>
 </html>
