@@ -1,82 +1,62 @@
 
 body {
-    font-family: 'Georgia', serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    text-align: center;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #111;
 }
-
-main {
-    padding: 40px 20px;
+header, footer {
+  text-align: center;
+  padding: 2rem 1rem;
 }
-
-h1 {
-    font-size: 2.5em;
-    font-style: italic;
-    margin-bottom: 0.2em;
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
 }
-
-h2 {
-    font-size: 1em;
-    font-weight: normal;
-    margin-bottom: 2em;
+.tagline {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  font-style: italic;
 }
-
-.intro {
-    max-width: 800px;
-    margin: 0 auto 3em auto;
-    font-size: 1.1em;
-    line-height: 1.8em;
+.signature {
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  color: #555;
 }
-
-.media {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2em;
+.description {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  line-height: 1.6;
+  text-align: center;
 }
-
-.profile-video {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 2em;
-    flex-wrap: wrap;
-}
-
-.profile {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 .video-container {
-    max-width: 300px;
-    width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
 }
-
 .video-container video {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 12px;
 }
-
-.video-intro {
-    font-style: italic;
-    margin-bottom: 0.5em;
+.img-luxe {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  display: block;
+  border-radius: 12px;
 }
-
-.property-image img {
-    max-width: 500px;
-    width: 100%;
-    border-radius: 10px;
+.photo-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 2rem auto;
+  display: block;
 }
-
 footer {
-    margin-top: 4em;
-    font-size: 0.9em;
-    color: #777;
+  background-color: #eee;
+  font-size: 0.9rem;
+  padding: 1rem;
+  color: #333;
 }
