@@ -1,68 +1,57 @@
 
 body {
+    background-color: #f2f2f2;
+    font-family: 'Georgia', serif;
+    color: #333;
+    text-align: center;
     margin: 0;
     padding: 0;
-    font-family: 'Georgia', serif;
-    background-color: #f2f2f2;
-    color: #333;
 }
-
 .container {
-    text-align: center;
-    padding: 2em;
+    padding: 30px 20px;
 }
-
 .tagline {
     font-style: italic;
-    font-size: 2.2em;
-    margin-bottom: 0.3em;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
-
-.name {
-    font-size: 1.1em;
-    font-weight: normal;
-    margin-bottom: 1em;
+.author {
+    font-size: 1em;
+    margin-bottom: 20px;
 }
-
 .description {
-    max-width: 600px;
-    margin: 0 auto 2em auto;
-    font-size: 1.05em;
-    line-height: 1.6;
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto 40px;
 }
-
 .media-section {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 40px;
+    flex-wrap: wrap;
 }
-
-.video {
-    width: 100%;
-    max-width: 320px;
-    border-radius: 8px;
-}
-
-.profile-pic {
-    width: 120px;
-    height: 120px;
+.profile-img {
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #aaa;
 }
-
-.luxury-img {
+.demo-video {
+    height: 500px;
+    aspect-ratio: 9/16;
+    max-width: 100%;
+}
+.luxury-image {
+    margin-top: 50px;
+    max-width: 600px;
     width: 100%;
-    max-width: 700px;
-    margin-top: 2em;
-    border-radius: 10px;
+    border-radius: 20px;
 }
-
-/* Responsive */
-@media (min-width: 768px) {
-    .media-section {
-        flex-direction: row-reverse;
-        justify-content: center;
-    }
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #555;
 }
