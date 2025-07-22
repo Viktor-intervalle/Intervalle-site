@@ -1,57 +1,82 @@
 
 body {
-    background-color: #f2f2f2;
     font-family: 'Georgia', serif;
-    color: #333;
-    text-align: center;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    color: #333;
+    text-align: center;
 }
-.container {
-    padding: 30px 20px;
+
+main {
+    padding: 40px 20px;
 }
-.tagline {
-    font-style: italic;
+
+h1 {
     font-size: 2.5em;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-style: italic;
+    margin-bottom: 0.2em;
 }
-.author {
+
+h2 {
     font-size: 1em;
-    margin-bottom: 20px;
+    font-weight: normal;
+    margin-bottom: 2em;
 }
-.description {
-    font-size: 1.1em;
+
+.intro {
     max-width: 800px;
-    margin: 0 auto 40px;
+    margin: 0 auto 3em auto;
+    font-size: 1.1em;
+    line-height: 1.8em;
 }
-.media-section {
+
+.media {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 2em;
+}
+
+.profile-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
     flex-wrap: wrap;
 }
-.profile-img {
-    width: 140px;
-    height: 140px;
+
+.profile {
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
 }
-.demo-video {
-    height: 500px;
-    aspect-ratio: 9/16;
-    max-width: 100%;
-}
-.luxury-image {
-    margin-top: 50px;
-    max-width: 600px;
+
+.video-container {
+    max-width: 300px;
     width: 100%;
-    border-radius: 20px;
 }
+
+.video-container video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-intro {
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+.property-image img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
+
 footer {
-    margin-top: 60px;
-    padding: 20px;
+    margin-top: 4em;
     font-size: 0.9em;
-    color: #555;
+    color: #777;
 }
