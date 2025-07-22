@@ -1,62 +1,60 @@
-
 body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f7f7f7;
-  color: #111;
+    background-color: #f4efec;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    color: #111;
 }
-header, footer {
-  text-align: center;
-  padding: 2rem 1rem;
+
+.container {
+    text-align: center;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
 }
-header h1 {
-  font-size: 2.5rem;
-  margin: 0;
+
+h1 {
+    font-size: 2.5em;
+    font-style: italic;
 }
-.tagline {
-  font-size: 1.3rem;
-  margin-top: 0.5rem;
-  font-style: italic;
+
+.justified {
+    text-align: justify;
+    margin: 20px 0;
 }
-.signature {
-  font-size: 1rem;
-  margin-top: 0.2rem;
-  color: #555;
+
+.video {
+    width: 300px;
+    height: 533px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
 }
-.description {
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  padding: 1rem 2rem;
-  line-height: 1.6;
-  text-align: center;
+
+.media-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
 }
-.video-container {
-  max-width: 900px;
-  margin: 2rem auto;
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
 }
-.video-container video {
-  width: 100%;
-  border-radius: 12px;
+
+.property-img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
 }
-.img-luxe {
-  width: 100%;
-  max-width: 900px;
-  margin: 2rem auto;
-  display: block;
-  border-radius: 12px;
-}
-.photo-profil {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 2rem auto;
-  display: block;
-}
+
 footer {
-  background-color: #eee;
-  font-size: 0.9rem;
-  padding: 1rem;
-  color: #333;
+    text-align: center;
+    font-size: 0.9em;
+    color: #444;
+    margin: 40px 0 10px;
 }
