@@ -1,54 +1,65 @@
 
 body {
-    margin: 0;
     font-family: 'Georgia', serif;
-    background-color: #f5f5f5;
-    color: #222;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f0ee;
+    color: #1c1c1c;
     text-align: center;
 }
-main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem;
+header {
+    padding: 2rem 1rem 1rem;
 }
-.intro h1 {
+h1 {
     font-size: 2.5rem;
-    font-weight: bold;
+    margin-bottom: 0.2rem;
 }
-.intro h2 {
+h2 {
     font-style: italic;
-    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    margin: 0.2rem 0;
 }
-.intro p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-}
-.video-intro {
+h3 {
+    font-weight: normal;
     font-size: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    color: #444;
+}
+.intro {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: auto;
+}
+.video-section {
+    margin: 2rem auto;
 }
 video {
     width: 300px;
-    height: 530px;
-    object-fit: cover;
-    border-radius: 12px;
-}
-.luxury-image img {
-    margin-top: 2rem;
-    width: 70%;
     height: auto;
-    border-radius: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-.profile-photo img {
-    margin-top: 2rem;
-    width: 140px;
-    height: 140px;
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+.profile-pic {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
+    object-fit: cover;
+}
+.property-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
 footer {
-    margin-top: 3rem;
-    padding: 1rem;
     font-size: 0.9rem;
     color: #666;
+    padding-bottom: 2rem;
 }
