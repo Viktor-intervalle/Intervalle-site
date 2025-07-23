@@ -1,70 +1,58 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f0ec;
-    color: #1c1c1c;
+    background-color: #f7f0eb;
+    color: #333;
+    text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
-header {
-    text-align: center;
-    padding: 30px 20px 0 20px;
+
+.slogan {
+    font-size: 24px;
+    margin-top: 0;
 }
-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 0;
-}
-header h2 {
-    font-size: 1.5em;
-    margin-top: 0.3em;
-    font-style: italic;
-    color: #555;
-}
-header .author {
-    margin-top: 0.2em;
+
+.auteur {
+    font-size: 16px;
     color: #777;
-}
-main {
-    padding: 30px 20px;
-    text-align: center;
-}
-.intro p {
-    max-width: 700px;
-    margin: 0 auto 40px auto;
-    line-height: 1.6;
-    text-align: justify;
-}
-.centered-title {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.video-wrapper {
-    display: flex;
-    justify-content: center;
     margin-bottom: 30px;
 }
-.image-row {
+
+.intro {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.video-container {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.media {
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 50px;
+    flex-wrap: wrap;
 }
-.profile-pic {
-    width: 140px;
-    height: 140px;
+
+.media img {
+    max-height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.profile {
+    max-height: 200px;
     border-radius: 50%;
-    object-fit: cover;
 }
-.property-img {
-    width: 260px;
-    height: auto;
-    border-radius: 12px;
-    object-fit: cover;
-}
+
 footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
-    color: #555;
+    margin-top: 60px;
+    font-size: 14px;
+    color: #999;
 }
