@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+    font-style: italic;
+}
+
+h2 {
+    margin-top: 0;
+    font-weight: normal;
+    color: #555;
+}
+
+.intro {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.video-label {
+    font-weight: 500;
+    margin: 40px 0 10px;
+}
+
+.video-container {
+    margin-bottom: 40px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #888;
+}
