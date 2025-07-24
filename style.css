@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.justified {
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto 10px auto;
+    font-weight: normal;
+}
+
+.video-container {
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.spacer {
+    height: 40px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+}
