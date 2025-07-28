@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #E4D6C5;
+    text-align: center;
+    padding: 45px 0; /* réduit de 25% par rapport à ~60px */
+}
+
+.header p {
+    margin: 0;
+    font-style: italic;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 10px 0;
+}
+
+.conclusion {
+    text-align: center;
+    margin: 30px 0 60px 0;
+    font-size: 1rem;
+}
+
+
+.justified {
+    text-align: justify;
+}
