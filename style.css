@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.header {
+    background-color: #E6D3B3;
+    text-align: center;
+    padding: 45px 0;
+}
+.header p {
+    margin: 0;
+    font-style: italic;
+}
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+}
+.profile-img {
+    width: 140px;
+    border-radius: 50%;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
